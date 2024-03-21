@@ -39,8 +39,6 @@ User-agent: Superarama v.01
 Disallow: /
 
 User-agent: PetalBot
-
-Sitemap: https://offlinehun.github.io/digitalmarketingprojects/sitemap.xml
 Disallow: /
 
-Sitemap: 
+Sitemap: https://offlinehun.github.io/digitalmarketingprojects/sitemap.xml
