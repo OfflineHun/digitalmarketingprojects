@@ -85,56 +85,7 @@
             width: 10em;
             
         }
-    body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    height: 100vh;
-    overflow: hidden;
-    background-color: #222;
-  }
-
-  .ball {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    border-radius: 50%;
-    background-color: #ff7e5f;
-    animation: move 5s linear infinite alternate;
-  }
-
-  @keyframes move {
-    0%, 100% {
-      transform: translateY(0) translateX(0);
-    }
-    25% {
-      transform: translateY(-50px) translateX(-50px);
-    }
-    50% {
-      transform: translateY(50px) translateX(-50px);
-    }
-    75% {
-      transform: translateY(50px) translateX(50px);
-    }
-  }
-
-  .ball:nth-child(2) {
-    background-color: #feb47b;
-  }
-
-  .ball:nth-child(3) {
-    background-color: #ffda87;
-  }
-
-  .ball:nth-child(4) {
-    background-color: #ffcc5c;
-  }
-
-  .ball:nth-child(5) {
-    background-color: #ff6a3f;
-  }
-    </style>
-
+    
 </head>
 <body>
     <header>
@@ -144,33 +95,7 @@
     </header>
 
     <main>
-        <div class="ball" id="ball1"></div>
-<div class="ball" id="ball2"></div>
-<div class="ball" id="ball3"></div>
-<div class="ball" id="ball4"></div>
-<div class="ball" id="ball5"></div>
-
-<script>
-  // Function to generate random position for balls
-  function randomPosition() {
-    return Math.floor(Math.random() * 90) + 5 + '%';
-  }
-
-  // Function to animate balls
-  function moveBalls() {
-    var balls = document.querySelectorAll('.ball');
-    balls.forEach(function(ball) {
-      ball.style.top = randomPosition();
-      ball.style.left = randomPosition();
-    });
-  }
-
-  // Animate balls initially
-  moveBalls();
-
-  // Move balls randomly every 3 seconds
-  setInterval(moveBalls, 3000);
-</script>
+        
         <h1>Top must SEO projects for businesses</h1>
         <p>Own and gather data, monitor your website's performance, follow up on what is the most actual performance of your content, prepare automatically updating reports and mostly generate organic revenue.</p>
         <div class="homepage-topic-block-row">
